@@ -121,6 +121,36 @@ const recipes = {
                 name: "water"
             }
         ]
+    },
+    airPower: {
+        name: "Air Power",
+        prodTime: 4,
+        ingredients: [
+            {
+                amount: 0.8,
+                name: "yellowCoin"
+            },
+            {
+                amount: 0.4,
+                name: "depletedAirCrystal"
+            }
+        ]
+    },
+    airStone: {
+        name: "Air Stone",
+        prodTime: 6,
+        ingredients: {
+            amount: 1,
+            name: "blueCoin"
+        }
+    },
+    animalFeed: {
+        name: "Animal Feed",
+        prodTime: 2,
+        ingredients: {
+            amount: 2,
+            name: "grain"
+        }
     }
 }
 
